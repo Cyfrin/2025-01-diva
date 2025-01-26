@@ -124,4 +124,6 @@ pnpm test:hh
 - Direct ETH deposits are not supported (requires wrapper contract).
 - Yield rounding issues could temporarily prevent yield claims if aToken balance becomes smaller than wToken supply.
 
+**Additional Known Issues detected by LightChaser are available [here](https://github.com/Cyfrin/2025-01-diva/issues/7).**
+
 [//]: # (known-issues-close)
