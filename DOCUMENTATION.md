@@ -173,7 +173,7 @@ The following sections provide an overview of the main user flows of the AaveDIV
 
 The pool creation / liquidity addition flow is illustrated below:
 
-![AaveDIVAWrapper1](https://github.com/user-attachments/assets/d883c460-c9b0-4807-b70a-b2832e502f3f)
+![AaveDIVAWrapper1](https://github.com/Cyfrin/2025-01-diva/blob/main/issuance.png)
 
 1. User (e.g. donor) deposits 100 USDC (the collateral token) via AaveDIVAWrapper's [`createContingentPool`](#createcontingentpool) or [`addLiquidity`](#addliquidity) function.
 2. AaveDIVAWrapper supplies the 100 USDC to Aave (2a) and receives 100 rebasing aUSDC tokens (the aToken) (2b).
@@ -184,7 +184,7 @@ The pool creation / liquidity addition flow is illustrated below:
 
 The position token redemption flow is illustrated below. Note that for clarity, the diagram shows a simplified sequence - the actual implementation handles these steps in a slightly different order for security reasons.
 
-![AaveDIVAWrapper Redemption Short drawio](https://github.com/user-attachments/assets/bc7ddabe-30bb-442e-98fe-48cca19dea24)
+![AaveDIVAWrapper Redemption Short drawio](https://github.com/Cyfrin/2025-01-diva/blob/main/redemption.png)
 
 1. User (e.g. farmer) submits 100 short tokens for redemption to AaveDIVAWrapper via [`redeemPositionToken`](#redeempositiontoken).
 2. AaveDIVAWrapper redeems 100 aUSDC from Aave (2a) and receives 100 USDC (2b). aUSDC tokens are burnt during this process.
