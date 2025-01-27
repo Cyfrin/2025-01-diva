@@ -23,7 +23,7 @@ AaveDIVAWrapper is a smart contract that acts as a **connector between [DIVA Pro
 
 The following diagram illustrates the high-level flow of funds. A technically more detailed flow is provided in the [Main user flows](#main-user-flows) section.
 
-![AaveDIVAWrapper_high_level2 drawio](https://github.com/user-attachments/assets/6a93a0dd-92cc-400a-a5d4-e994170fa6c1)
+![398371105-6a93a0dd-92cc-400a-a5d4-e994170fa6c1](https://github.com/user-attachments/assets/162d803f-ae71-4d5e-9421-91e648106c19)
 
 1. User deposits funds (e.g., USDC) into AaveDIVAWrapper.
 1. AaveDIVAWrapper supplies these funds to Aave V3 for yield generation.
