@@ -22,7 +22,7 @@ The AaveDIVAWrapper contract was originally designed for DIVA Donate on Arbitrum
 ### Relevant links
 
 #### AaveDIVAWrapper:
-- [AaveDIVAWrapper Documentation (Github)](../DOCUMENTATION.md)
+- [AaveDIVAWrapper Documentation (Github)](https://github.com/Cyfrin/2025-01-diva/blob/main/DOCUMENTATION.md)
 - [AaveDIVAWrapper Codebase](https://github.com/Walodja1987/AaveDIVAWrapper)
 
 #### DIVA Donate:
